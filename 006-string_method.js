@@ -6,3 +6,9 @@ console.log(b)
 
 //find the length of string.
 console.log(a.length ,b.length)
+
+//replace_method string
+console.log(a.replace("hello","hi"))
+console.log(a)
+
+//substring_method
