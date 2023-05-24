@@ -36,3 +36,9 @@ let x5= num2.reduceRight(function(a,b){
 
 })
 console.log("the sum is ",x5)
+
+
+//indexof method
+let fruit=["apple","banana","mango"]
+let index=fruit.indexOf("mango")
+console.log("the position is "+ index)
