@@ -22,3 +22,7 @@ console.log(sort) //this sorting is based on alphabetic sorting
 let con=num.concat(num1)
 console.log(con)
 console.log(con.sort()) //two array method used in this line first it will concat the array and then sort the araay in alphabetic way
+
+//join method
+let j= num.join("-")
+console.log(j)
