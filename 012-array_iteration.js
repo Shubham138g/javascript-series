@@ -21,7 +21,18 @@ console.log(x1)
 let num2=[1,67,89,65,6,4,3433]
 
 let x2= num2.reduce(function(a,b){
-    return a+b
+    return a*b
 
 })
 console.log(x2)
+
+
+
+//array reduceright method
+let rr=[1,67,89,65,6,4,3433]
+
+let x5= num2.reduceRight(function(a,b){
+    return a+b
+
+})
+console.log("the sum is ",x5)
