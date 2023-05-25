@@ -24,3 +24,16 @@ function factorial(n){
 var number =5
 var f=factorial(number)
 console.log("the factoria of "+number+"is: "+f)
+
+
+//table function
+function tabel(t){
+    for(let i=1;i<=10;i++){
+        console.log(t+"*"+i+"="+t*i)
+    }
+}
+
+
+//calling table function
+tabel(2)
+
