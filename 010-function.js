@@ -17,3 +17,4 @@ function sum(a,b){
 //calling function
 let a=sum(10,10)
 console.log(a)
+
