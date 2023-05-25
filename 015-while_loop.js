@@ -13,6 +13,14 @@ while(a<=10){
     a++
 }
 
+//table using while loop in reverse order
+let a1=10
+let t1=2
+while(a1>=1){
+    console.log(t1*a1)
+    a1--
+}
+
 //while loop in reverse order
 let i1=5
 while( i1>=1){
