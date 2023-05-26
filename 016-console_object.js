@@ -23,3 +23,21 @@ const data = [
   ];
   
   console.table(data);
+
+  let student_data=[
+    {name: 'shubham',age: '21',city:'Jalandhar'},
+    {name: 'Mohan',age: '21',city:'Jalandhar'},
+    {name: 'Kundan Kumar Sahu',age: '20',city:'Ludhiyana'},
+    {name: 'Vikram',age: '23',city:'Jalandhar'},
+    {name: 'Sonu',age: '21',city:'Kapurthala'}
+  ]
+  console.table(student_data)
+
+  //console.time()
+  console.time('timer')
+   for(let i=0;i<8;i++)
+{
+    console.log("js")
+
+}
+console.timeEnd('timer')
