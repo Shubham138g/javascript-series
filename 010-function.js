@@ -18,3 +18,13 @@ function sum(a,b){
 let a=sum(10,10)
 console.log(a)
 
+
+//area of rectangle function
+
+function rect(l,b)
+{
+    a=l*b
+    console.log("the area of rectangle is length = "+l+"and width is "+b +"=",a)
+}
+
+rect(2,4)
