@@ -1,5 +1,24 @@
-// console.log("hpw are you")
+// validation for myform form
+
+
+
+
+
+
+
+
 function validate_form() {
+
+    //email validation
+    var x=document.myform.email.value;  
+    var atposition=x.indexOf("@");  
+    var dotposition=x.lastIndexOf(".");  
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+      alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+      return false;  
+      }  
+
+    //validation for fname.pass,cpass
     let firstname = document.myform.fname.value;
     let pass = document.myform.pass.value;
     let cpass = document.myform.cpass.value;
@@ -21,5 +40,4 @@ function validate_form() {
         alert("Password does not match.Please enter coorect password")
         return false;
     }
-
 }
