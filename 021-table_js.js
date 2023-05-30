@@ -9,9 +9,9 @@ function table2() {
 
 
 function add3(){
-    var add1= document.getElementById("add1").value
-    var add2= document.getElementById("add2").value
-    // var sum =add1+add2;
-    document.write("the sum of "+add1+ "and "+add2+"is",add1+add2)
+    let add1= document.getElementById("add1").value
+    let add2= document.getElementById("add2").value
+    // let sum =add1+add2;
+    document.write("the sum of "+add1+ "and "+add2+"is" +add1+add2)
     // return sum;
 }
