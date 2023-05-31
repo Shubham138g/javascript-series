@@ -17,11 +17,21 @@ const prompt= require('prompt-sync')();
 //------------------------------------------------------------------------------------------------------------------------------------------------
 
 //convert minute into second
-const number=prompt("enter a number in minute: ");
+// const number=prompt("enter a number in minute: ");
 
-function convert(number){
-    let s =number*60
-    console.log(s +" second in " +number+" minutes 5")
+// function convert(number){
+//     let s =number*60
+//     console.log(s +" second in " +number+" minutes 5")
+// }
+
+// convert(number)
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------
+const age=prompt("Enter your Age: ");
+
+function age_days(age)
+{
+    const days= age*365;
+    console.log(age+" age in to day is " + days)
 }
-
-convert(number)
+age_days(age)
