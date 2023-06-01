@@ -30,16 +30,18 @@ const prompt= require('prompt-sync')();
 
 //take hour and min from the user and convert them into second and then add both the number and print the second on the console
 
-// const hour=prompt("enter hour:")
-// const min=prompt("enter min:")
+const hour=prompt("enter hour:")
+const min=prompt("enter min:")
+const sec=prompt("enter seconds:")
 
-// function second(hour,min)
-// {
-//     const a= hour* 3600
-//     const b= min * 60
-//     const c= a + b
-//     console.log(hour+" hours and " + min +" minutes into second is: "+ c +" seconds")
-// }
-// second(hour,min)
+function second(hour,min,sec)
+{
+    const a= hour* 3600
+    const b= min * 60
+    const s= sec * 1
+    const c= a + b + s
+    console.log(hour+" hours and " + min +" minutes and "+ sec+ " second into second is: "+ c +" seconds")
+}
+second(hour,min,sec)
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
