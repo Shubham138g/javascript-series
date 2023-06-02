@@ -14,3 +14,13 @@ for(let i=0;i<=100;i++)
         console.log(i)
     }
 }
+
+//pattern
+for(let a=1;a<=10;a++)
+{
+    str=""
+    for(let j=1;j<=a;j++){
+        str+= j + ""
+    }
+    console.log(s
+}
