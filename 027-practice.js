@@ -11,11 +11,20 @@ const prompt= require('prompt-sync')();
 
 
 //arrow function
-const b=prompt("enter a name")
-const uper =(b) =>{
-    console.log(b.toUpperCase())
+// const b=prompt("enter a name")
+// const uper =(b) =>{
+//     console.log(b.toUpperCase())
+// }
+
+// uper(b)
+
+
+
+let c1=" how are you"
+const c=prompt("enter your name")
+const concat =(c) =>{
+    console.log(c.concat(c1))
+    
 }
 
-uper(b)
-
-
+concat(c)
