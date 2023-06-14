@@ -19,3 +19,11 @@ let  today=new Date();
 let getdate= today.getDate()
 let getweek=today.getDay()
 console.log(getdate,getweek)
+
+
+//this keyword
+let name="shubham"
+function n(){
+    console.log(this.name);
+}
+n();
