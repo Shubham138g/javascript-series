@@ -12,5 +12,10 @@
 // console.log(emp1.salary)
 
 //date function
-// let  today=new Date();  
+let  today=new Date();  
 // console.log(today)
+
+//getDate function
+let getdate= today.getDate()
+let getweek=today.getDay()
+console.log(getdate,getweek)
