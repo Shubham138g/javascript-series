@@ -50,3 +50,7 @@
  form input.equal{
     width: 145px;
  }
+
+ form input.button-color{
+    color: rgb(28, 194, 240);
+ }
