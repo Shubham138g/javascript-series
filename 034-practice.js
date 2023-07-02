@@ -38,19 +38,27 @@ let a=12;
 //     console.log("a is not less then 12")
 // }
 
-//if else if
+//if else if statement
 
-if(a<12)
-{
-    console.log("a is less than 12")
+// if(a<12)
+// {
+//     console.log("a is less than 12")
+// }
+// else if(a>12){
+//     console.log("a is greater then 12")
+// }
+// else if(a==12)
+// {
+//     console.log("a is eqaul to the 12")
+// }
+// else{
+//     console.log("oops ")
+// }
+
+//function 
+
+function rect(x,y){
+    console.log("the * of x and y is: ")
+    return x*y;
 }
-else if(a>12){
-    console.log("a is greater then 12")
-}
-else if(a==12)
-{
-    console.log("a is eqaul to the 12")
-}
-else{
-    console.log("oops ")
-}
+rect(2,4)
