@@ -30,10 +30,27 @@ let a=12;
 // }
 
 // if else statement
+// if(a<12)
+// {
+//     console.log("a is less than 12")
+// }
+// else{
+//     console.log("a is not less then 12")
+// }
+
+//if else if
+
 if(a<12)
 {
     console.log("a is less than 12")
 }
+else if(a>12){
+    console.log("a is greater then 12")
+}
+else if(a==12)
+{
+    console.log("a is eqaul to the 12")
+}
 else{
-    console.log("a is not less then 12")
+    console.log("oops ")
 }
