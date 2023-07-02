@@ -13,3 +13,10 @@ while(a<=20)
     console.log("the number is ",a)
     a++;
 }
+
+//for loop in js
+
+for(let b=1;b<=12;b++)
+{
+    console.log(b)
+}
