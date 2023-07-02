@@ -24,7 +24,16 @@
 //if statement
 
 let a=12;
-if(a==12)
+// if(a==12)
+// {
+//     console.log("a is equal to 12")
+// }
+
+// if else statement
+if(a<12)
 {
-    console.log("a is equal to 12")
+    console.log("a is less than 12")
+}
+else{
+    console.log("a is not less then 12")
 }
