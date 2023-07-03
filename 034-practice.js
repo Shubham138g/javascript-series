@@ -57,7 +57,14 @@ let a=12;
 
 //function 
 
-function rect(x,y){
-    console.log("how are you",x*y);
+// function rect(x,y){
+//     console.log("how are you",x*y);
+// }
+//  rect(2,4)
+
+//arrow function
+const area=(l,b)=>{
+    console.log("i am arrow function",l*b)
 }
- rect(2,4)
+
+area(10,10)
