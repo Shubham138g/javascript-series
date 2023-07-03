@@ -58,7 +58,6 @@ let a=12;
 //function 
 
 function rect(x,y){
-    console.log("the * of x and y is: ")
-    return x*y;
+    console.log("how are you",x*y);
 }
-rect(2,4)
+ rect(2,4)
