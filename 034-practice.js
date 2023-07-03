@@ -63,8 +63,9 @@ let a=12;
 //  rect(2,4)
 
 //arrow function
-const area=(l,b)=>{
-    console.log("i am arrow function",l*b)
-}
+// const area=(l,b)=>{
+//     console.log("i am arrow function",l*b)
+// }
 
-area(10,10)
+// area(10,10)
+
